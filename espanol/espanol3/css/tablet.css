@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (max-width: 768px){
+	#container{
+		background-size:100% auto;
+		-moz-background-size:100% auto;
+		-webkit-background-size:100% auto;
+		background-repeat:no-repeat;
+		width:700px;
+		text-align:center;
+		margin:0 auto;
+	}
+	
+	#temas{
+		margin: 70px 0 0 120px;
+	}
+	
+	#pagewrap{
+		width: 700px;
+		-moz-background-size: 50% auto;
+		-webkit-background-size: 50% auto;
+		background-size: 50% auto;
+	}
+	
+	#img_bloque{
+		width: 700px;
+	}
+	
+	#boton {
+		padding: 133px 0 0 220px
+	}
+	
+	.bloke1 a{
+		background: url(../img/bloques1_med.png);
+		height: 109px;
+		width: 120px;
+	}
+	
+	.bloke1 a:hover{
+		height: 129px;
+		background-position: 0 -123px;
+	}
+	
+	.bloke2 a{
+		background: url(../img/bloques2_med.png);
+		height: 109px;
+		width: 120px;
+		background-position: 0 0;
+	}
+	
+	.bloke2 a:hover{
+		height: 129px;
+		background-position: 0 -124px;
+	}
+	
+	.bloke3 a{
+		background: url(../img/bloques3_med.png);
+		height: 109px;
+		width: 120px;
+		background-position: 0 0;
+	}
+	
+	.bloke3 a:hover{
+		height: 129px;
+		background-position: 0 -123px;
+	}
+	
+	.bloke4 a{
+		background: url(../img/bloques4_med.png);
+		height: 109px;
+		width: 120px;
+		background-position: 0 0;
+	}
+	
+	.bloke4 a:hover{
+		height: 129px;
+		background-position: 0 -122px;
+	}
+	
+	.bloke5 a{
+		background: url(../img/bloques5_med.png) no-repeat;
+		height: 109px;
+		width: 120px;
+		background-position: 0 0;
+	}
+	
+	.bloke5 a:hover{
+		height: 129px;
+		background-position: 0 -123px;
+	}
+	/****************************************************************************
+			BLOQUE
+	****************************************************************************/
+	.tablaA{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		border: none;
+	}
+	
+	.tablaB{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		border: none;
+	}
+	
+	.tablaC{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		border: none;
+	}
+	
+	.tablaA span, .tablaB span, .tablaC span{
+		border-bottom: none;
+		padding: 5px 0;
+		
+	}
+	
+	.tableAprendizaje, .tableAprendizajeB, .tableAprendizajeC{
+		float: none; 
+		width: 100%;
+		height: auto;
+		border-right: none;
+	}
+	
+	.tableAprendizaje span, .tableAprendizajeB span, .tableAprendizajeC span{
+		width: auto;
+		height: auto;
+		border-bottom: none;
+		border-top: none;
+	}
+	
+	.tableAprendizaje p, .tableAprendizajeB p, .tableAprendizajeC p{
+		text-align: left;
+	}
+		 
+}
+
+@media only screen and (max-width: 500px){
+	
+	.tablaA span, .tablaB span, .tablaC span, .tableAprendizaje, .tableAprendizajeB, .tableAprendizajeC{
+		font-size: 12px;
+	}
+}	

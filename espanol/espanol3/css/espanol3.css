@@ -1,0 +1,502 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url("../../../css/tipografia.css");
+
+header, section, footer, aside, nav, article, figure, div, span{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+img, video, object { 
+	max-width:100%; 
+}
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: 'Fabada-regular';
+	font-size:13px;
+	color:#A95300;	
+	text-align: justify;
+	background:url(../../../img/bg_main.jpg);
+}
+
+#pagewrap{
+	width: 1024px;
+	height: 864px;
+	margin: 0 auto;
+
+	background: url(../../../img/bg_contenido.jpg);
+}
+
+#logo{
+	background: url(../img/line_header.jpg) repeat-x;
+	height: 159px;
+}
+
+#logo figure{
+	padding: 45px 0 0 0;
+	text-align: center;	
+}
+ 
+#img_bloque{
+	background: url(../img/bg_content.png) center no-repeat;
+	width: 1024px;
+	height: 540px;
+	margin: 0 auto;
+}
+
+.menu_bloques{
+	padding: 0 35px;
+}
+
+#bloques li{
+	float: left;
+}
+
+#bloques a{
+	display: block;
+	text-indent: -9000%;
+}
+
+.bloke1 a{
+	background: url(../img/bloques1.png);
+	display: block;
+	height: 194px;
+	width: 186px;
+	background-position: 0 0;
+}
+
+.bloke1 a:hover{
+	display: block;
+	height: 198px;
+	background-position: 0 -190px;
+}
+
+.bloke2 a{
+	background: url(../img/bloques2.png);
+	display: block;
+	height: 194px;
+	width: 186px;
+	background-position: 0 0;
+}
+
+.bloke2 a:hover{
+	display: block;
+	height: 198px;
+	background-position: 0 -190px;
+}
+
+
+.bloke3 a{
+	background: url(../img/bloques3.png);
+	display: block;
+	height: 194px;
+	width: 186px;
+	background-position: 0 0;
+}
+
+.bloke3 a:hover{
+	display: block;
+	height: 198px;
+	background-position: 0 -190px;
+}
+
+.bloke4 a{
+	background: url(../img/bloques4.png);
+	display: block;
+	height: 194px;
+	width: 186px;
+	background-position: 0 0;
+}
+
+.bloke4 a:hover{
+	display: block;
+	height: 198px;
+	background-position: 0 -190px;
+}
+
+.bloke5 a{
+	background: url(../img/bloques5.png) no-repeat;
+	display: block;
+	height: 194px;
+	width: 186px;
+	background-position: 0 0;
+}
+
+.bloke5 a:hover{
+	display: block;
+	height: 198px;
+	background-position: 0 -190px;
+}
+
+#boton {
+	width: 230px;
+	height: 40px;
+	padding: 133px 0 0 372px;
+}
+
+footer{
+	text-align: center;
+	color: #a19d84;
+	padding: 5px 0;
+    clear: both;
+}
+
+/************************************************************************************
+BLOQUE
+************************************************************************************/
+
+#general{
+	background: url(../../../img/bg_contenido.jpg);
+}
+
+#barra_S{
+	background: url(../img/line_header.jpg) repeat-x;
+	height: 42px;
+}
+
+#menu {
+	font-weight: bold;
+	color: rgba(226,93,93,1);
+    background-color: #EAEAEA;
+	margin: 1px 0 0 3px;
+	padding: 8px;
+	width: 140px;
+	text-align: center;
+	border: 1px solid  rgba(246,114,114,0.9);
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	
+}
+#menu:hover {
+	background: rgba(226,93,93,1);
+	color: #efefef;
+}
+
+#logo_content{
+	display: block;
+	width: 217px;
+	height: 300px;
+}
+
+#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    margin-left: -217px;
+    list-style: none;
+    z-index:9999;
+	width: 218px;
+	height: 900px;}
+
+#menu_bloque{
+	height: 664px;
+	margin: 0 18px 0 14px;
+	
+	background: rgb(246,114,114);
+	background: -moz-linear-gradient(top,  rgba(246,114,114,1) 0%, rgba(226,93,93,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,114,114,1)), color-stop(100%,rgba(226,93,93,1)));
+	background: -webkit-linear-gradient(top,  rgba(246,114,114,1) 0%,rgba(226,93,93,1) 100%);
+	background: -o-linear-gradient(top,  rgba(246,114,114,1) 0%,rgba(226,93,93,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(246,114,114,1) 0%,rgba(226,93,93,1) 100%); 
+	background: linear-gradient(to bottom,  rgba(246,114,114,1) 0%,rgba(226,93,93,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f67272', endColorstr='#e25d5d',GradientType=0 );
+
+}
+
+#nav a.activa{
+	color: #161719;
+}
+
+ul.lista li{
+	padding: 5px 2px 10px 5px;
+	text-align: left;
+}
+
+ul.lista a{
+	text-decoration: none;
+	color: #efefef;
+}
+
+.info{
+	margin-left: 10px;
+	padding: 10px 5px 0 20px;
+	text-align: justify;
+}
+
+#pie{
+	text-align: center;
+	font-size:12px;
+	color: #a19d84;
+}
+
+/************************************************************************************
+CONTENT BLOQUE
+************************************************************************************/
+.content_tema{
+	background: none;
+}
+
+header{
+	font-family: 'A Bebedera';
+	font-size: 80px;
+	color: rgba(203,70,66,1);
+	font-weight: normal;
+}
+
+header span{
+	margin-left: 80px;
+	font-size: 100px;
+}
+
+.tablaA{
+	background: rgba(255,255,255,0.6);
+	width: 702px;
+	height: 920px;
+	margin: 0 auto;
+	color:#333;
+	border: 1px solid rgba(0,164,161,0.6);
+}
+
+.tablaB{
+	background: rgba(255,255,255,0.6);
+	width: 702px;
+	height: 780px;
+	margin: 0 auto;
+	color:#333;
+	border: 1px solid rgba(0,164,161,0.6);
+}
+
+.tablaC{
+	background: rgba(255,255,255,0.6);
+	width: 702px;
+	height: 1155px;
+	margin: 0 auto;
+	color:#333;
+	border: 1px solid rgba(0,164,161,0.6);
+}
+
+.tablaA span, .tablaB span, .tablaC span{
+	text-align: center;
+	padding: 10px 0 ;
+}
+
+.tableAprendizaje{
+	float: left; 
+	width: 233px;
+	height: 745px;
+	border-right: 1px solid rgba(0,164,161,0.9);
+	font-size: 12px;
+}
+
+.tableAprendizajeB{
+	float: left; 
+	width: 233px;
+	height: 605px;
+	border-right: 1px solid rgba(0,164,161,0.9);
+	font-size: 12px;
+}
+
+.tableAprendizajeC{
+	float: left; 
+	width: 233px;
+	height: 980px;
+	border-right: 1px solid rgba(0,164,161,0.9);
+	font-size: 12px;
+}
+
+.tableAprendizaje span, .tableAprendizajeB span, .tableAprendizajeC span{
+	width: 233px; 
+	background: rgb(235,245,243);
+	height: 35px; 
+	text-align: center;	
+	font-size: 14px;
+	border-top: 1px solid rgba(0,164,161,0.6);
+	border-bottom: 1px solid rgba(0,164,161,0.6);
+}
+
+.tableAprendizaje ul, .tableAprendizajeB ul, .tableAprendizajeC ul{
+	padding: 0 10px;
+}
+
+
+
+.tableAprendizaje li, .tableAprendizajeB li, .tableAprendizajeC li{
+	padding: 8px 0;
+}
+.tableAprendizaje p, .tableAprendizajeB p, .tableAprendizajeC p{
+	color: rgb(0,164,185);
+	text-align: center;
+}
+/*
+#tit_head, #tit_head span{
+	font-size: 60px;
+}*/
+.pagina{
+	background:none;
+}
+
+/*Estilos del tema 2 Elaborar anuario de una autobiografia del BLOQUE 5*/
+a.enlaceEjercicio {
+	font-family:'Fabada-regular';
+	font-size:18px;
+	color:#6D9951;
+	text-decoration:none;
+	font-weight:bold;
+	
+}
+a.enlaceEjercicio:hover{
+
+	color:#376899;
+}
+
+#cont_pages{
+	width:1024px;
+	height:716px;
+	margin:0 auto;
+	text-align:center;
+	background:url(../../../img/bg_contenido.jpg);
+	overflow:auto;
+
+}
+
+
+#cont_t2b5{
+	width:934px;
+	height:696px;
+	background:url(../img/img_bloque1/pizarron.png) no-repeat;
+	margin:0 auto;
+	}
+
+
+	
+#cont_biografia{
+	width:700px;
+	height:400px;
+	position:relative;
+	font-family:'Fabada-Regular';
+	color:#FFF;
+	margin-left:35px;
+	top:140px;
+	font-size:17px;
+	}
+	
+#autobiografy{
+	width:400px;
+	height:230px;
+	float:left;
+	text-align:center;
+	}
+	
+#biografy{
+	width:400px;
+	height:230px;
+	float:left;
+	tex
+	
+}	
+	
+#nombre_punto{
+	}
+	
+#contenedor_t2b5{
+	width:810px;
+	height:450px;
+	font-family:'Muli-Light';
+	color:#FFF;
+	margin-left:60px;
+	margin-top:15px;
+	top:40px;
+	font-size:23px;
+	text-align:left;
+	float:left;
+	}
+
+	
+#contenedor_t2b5_scroll{
+	width:810px;
+	height:450px;
+	font-family:'Muli-Light';
+	color:#FFF;
+	margin-left:60px;
+	margin-top:15px;
+	top:40px;
+	font-size:23px;
+	text-align:left;
+	float:left;
+	overflow:auto;
+	}
+#contenedor_t2b5_scroll p{
+	text-align:justify;
+	}	
+#paginado{
+	width:200px;
+	height:50px;
+	float:left;
+	margin-left:670px;
+	text-align:right;
+
+	}
+	
+
+	
+#preguntas{
+	width:350px;
+	height:440px;
+	float:left;
+	text-align:left;
+	margin-left:9px;
+	}
+	
+#imagen{
+	width:400px;
+	height:440px;
+	float:left;
+	text-align:left;
+	}
+#opciones
+{
+	width:300px;
+	height:330px;
+	float:left;
+	text-align:left;
+	margin-left:120px;
+
+}
+
+#paginado{
+	width:810px;
+	height:52px;
+	text-align:right;
+	margin-left:5px;
+	float:left;
+	margin-left:100px;
+}
+#opciones_imagenes
+{
+	width:510px;
+	height:330px;
+	float:left;
+
+}
+.preguntas{
+	color:#393939;
+	font-size:24px;
+	text-align:left;
+	font-family:'Muli-Regular';
+}

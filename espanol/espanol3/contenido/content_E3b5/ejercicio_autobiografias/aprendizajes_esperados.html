@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="elementos/jquery-1.9.1.min.js" type="text/javascript"></script>
+<link href="../../../css/espanol3.css" rel="stylesheet" />
+<script language="JavaScript">
+$(document).ready(function (){
+textEscribe("¿Porqué crees que las personas escriban de sí mismas?<br/>¿Haz escrito una autobiografía?<br/>¿Cuáles son los momentos más importantes de tu vida que te gustaría contar?<br/>¿Qué recuerdas de alguna biografía que hayas leído o escrito?<br/>¿Qué diferencias existen entre una biografía y una autobiografía?<br/>¿Quién narra en la biografía y quien en la autobiografía?<br/>¿En qué persona gramatical se se narra cada una de ellas?<br/>¿Qué emociones predominan en la narración de una autobiografía?<br/>¿De qué otra manera se puede nombrar al personaje en la autobiografía a fin de evitar la repetición?<br/>¿En qué orden se presenta la secuencia de los hechos?<br/>¿Qué tiempo y modo verbal se emplean preferentemente?", '#contenedor_t2b5', 100);
+});
+
+function textLista()
+{
+ max = textLista.arguments.length;
+ for (i = 0; i < max; i++)
+this[i] = textLista.arguments[i];
+}
+
+function textEscribe(txt, selector, time)
+{
+$(selector).empty();
+var x = 0; pos = 0;
+var tl = new textLista
+ ( 
+  txt
+ );
+var l = tl[0].length;
+textInterval(selector, tl, l, x, pos, time);
+}
+
+function textInterval(selector, tl, l, x, pos, time)
+{
+var intervalo =
+setInterval(function() {
+$(selector).html(tl[x].substring(0,pos));
+if(pos++ == l) 
+clearInterval(intervalo);
+}, time);
+}
+
+</script>
+<title>Untitled Document</title>
+</head>
+<body>
+<div id="cont_pages">
+<div id="cont_t2b5">
+<br /><br /><br />
+
+<div id="nombre_punto"> <img src="../../../img/img_bloque1/punto_1.png" width="571" height="93" /></div>
+<div id="contenedor_t2b5"></div>
+<div id="paginado"><a href="elaborar_anuario_autobiografias.html"><img src="../../../img/img_bloque1/btn_ant.png" width="45" height="45" border="0" /></a> <a href="ver_biogra_autobiogra.html"><img src="../../../img/img_bloque1/btn_sig.png" width="45" height="45" border="0" /></a></div>
+</div>
+</div>
+</body>
+</html>

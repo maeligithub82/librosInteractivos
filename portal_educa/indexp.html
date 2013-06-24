@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="css/taller.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/gallery.css" type="text/css" media="screen" />
+  <script type="text/javascript">var _siteRoot='indexp.html',_root='indexp.html';</script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+<title>Taller de Lectura</title>
+</head>
+<body onLoad="inicia();">
+<div id="pagewrap"> <!-- contenedor -->
+<div id="encabezado">
+<div id="pergamino">
+<div id="listaIni">
+<div class="cont_lista">
+
+<ul>
+<li><a href="#">Inicio</a></li>
+<li><a href="#">Juegos Educativos</a></li>
+<li><a href="#">Recursos para el aula</a></li>
+</ul>
+
+</div> <!-- finn de cont_lista -->
+
+
+</div><!-- finn de listaIni -->
+
+</div> <!-- finn de pergamino -->
+
+
+<div id="galeriaP">
+
+
+
+<!--/top-->
+  <div id="header"><div class="wrap">
+   <div id="slide-holder">
+<div id="slide-runner">
+    <a href="#"><img id="slide-img-1" src="images/nature-photo.png" class="slide" alt="" /></a>
+    <a href="#"><img id="slide-img-2" src="images/nature-photo1.png" class="slide" alt="" /></a>
+    <a href="#"><img id="slide-img-3" src="images/nature-photo2.png" class="slide" alt="" /></a>
+    <a href="#"><img id="slide-img-4" src="images/nature-photo3.png" class="slide" alt="" /></a>
+    <a href="#"><img id="slide-img-5" src="images/nature-photo4.png" class="slide" alt="" /></a>
+    <a href="#"><img id="slide-img-6" src="images/nature-photo4.png" class="slide" alt="" /></a>
+	<a href="#"><img id="slide-img-7" src="images/nature-photo6.png" class="slide" alt="" /></a> 
+    <div id="slide-controls">
+     <p id="slide-client" class="text"><strong> </strong><span></span></p>
+     <p id="slide-desc" class="text"></p>
+     <p id="slide-nav"></p>
+    </div>
+</div>
+	
+	<!--content featured gallery here -->
+   </div>
+   <script type="text/javascript">
+    if(!window.slider) var slider={};slider.data=[{"id":"slide-img-1","client":"Profesores","desc":"Contenido para profesores"},{"id":"slide-img-2","client":"Biblioteca","desc":"Material didactico"},{"id":"slide-img-3","client":"Biblioteca","desc":"Material didactico"},{"id":"slide-img-4","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-5","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-6","client":"nature beauty","desc":"add your description here"},{"id":"slide-img-7","client":"nature beauty","desc":"add your description here"}];
+   </script>
+  </div></div><!--/header-->
+
+
+
+
+
+
+</div>
+</div>  <!-- fin div encabezado -->
+
+<div id="formas">
+<div id="titulo">Herramientas Educativas</div>
+
+<div id="apartado1">
+<div id="imgap1">
+<div id="titap1"><a href="#">Zona Ingles</a></div> 
+<div id="textap1">Vas a poder aprender ingles de manera fácil y divertida.</div>
+</div>
+
+
+</div>
+
+<div id="apartado2">
+
+
+<div id="imgap2">
+<div id="titap1"><a href="#">Biblioteca Digital</a></div> 
+<div id="textap2">Obtén en forma ágil un sinnúmero de información que ya desde un artículo hasta una referencia bibliográfica.</div>
+</div>
+
+
+</div>
+
+<div id="apartado3">
+
+
+<div id="imgap3">
+<div id="titap1"><a href="#">Mindomo</a></div> 
+<div id="textap2">El profesor o el alumno pueden hacer un esquema a partir de un tema o un texto.</div>
+</div>
+
+
+</div>
+
+
+<div id="apartado4">
+
+
+<div id="imgap4">
+<div id="titap1"><a href="#">Aprendo Mates</a></div> 
+<div id="textap2">Aprendo mates es un portal para aprender Matemáticas de manera interactiva.</div>
+</div>
+
+
+
+</div>
+
+</div> <!-- fin div formas-->
+
+
+<div id="apps">
+
+<div class="appsOne">
+<div class="appscont">
+<div class="appstext"></div>
+</div>
+</div>
+<div class="appsTwo">
+<div class="appscont1"></div>
+</div>
+
+</div><!--fin apps -->
+
+<footer>
+</footer>
+</div> <!-- fin de div contenedor -->
+<script>
+       function inicia(){
+          var xIni;
+          var yIni;
+          var canvas = document.getElementById('pagewrap');
+          canvas.addEventListener('touchstart', function(e){
+              if (e.targetTouches.length == 1) {
+          var touch = e.targetTouches[0];
+          xIni = touch.pageX;
+          yIni = touch.pageY;
+       }
+          }, false);
+          
+          canvas.addEventListener('touchmove', function(e){
+              if (e.targetTouches.length == 1) {
+          var touch = e.targetTouches[0];
+          if((touch.pageX>xIni+20) && (touch.pageY> yIni-5) && (touch.pageY<yIni+5)){
+             /*alert("el swipe se genera hacia la izquierda");*/
+    	 location.href='../index.html';
+          }
+          
+          if((touch.pageX<xIni-20) && (touch.pageY> yIni-5) && (touch.pageY<yIni+5)){
+             /*alert("el swipe se genera hacia la derecha");*/
+	location.href='../index.html';
+          }
+       }
+          }, false);
+          
+                     
+       }
+    </script>
+</body>
+</html>

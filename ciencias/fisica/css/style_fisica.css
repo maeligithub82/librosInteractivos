@@ -1,0 +1,1111 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url("../../../css/tipografia.css");
+
+
+/*ESTILOS DE LA PAGINA DE BLOQUES DE CIENCIAS NATURALES*/
+header, section, footer, aside, nav, article, figure, div{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+img{
+	border:0px;
+}
+
+img, video, object { 
+	max-width:100%; 
+}
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: 'Fabada-regular';
+	font-size:14px;
+	color:#A95300;	
+	background:url(../../../img/bg_main.jpg);
+
+}
+
+#pagewrap{
+	width: 1024px;
+	height: 864px;
+	margin: 0 auto;
+
+	background: url(../../../img/bg_contenido.jpg);
+}
+
+#logo{
+	background: url(../img/line_header.jpg) repeat-x;
+	height: 159px;
+}
+
+#logo figure{
+	padding: 45px 0 0 0;
+	text-align: center;	
+}
+ 
+#img_bloque{
+	background: url(../img/bg_contentCf.png) center no-repeat;
+	width: 452px;/*1024px*/
+	height: 532px;/*540*/
+	margin: 0 auto;
+}
+
+.menu_bloques{
+	padding: 0 35px;
+}
+
+#bloques li{
+	float: left;
+}
+
+#bloques a{
+	display: block;
+	text-indent: -9000%;
+}
+
+.bloke1 a{
+	background: url(../img/bloques1.png);
+	display: block;
+	height: 194px;
+	width: 186px;
+	background-position: 0 0;
+}
+
+.bloke1 a:hover{
+	display: block;
+	height: 198px;
+	background-position: 0 -190px;
+}
+
+.bloke2 a{
+	background: url(../img/bloques2.png);
+	display: block;
+	height: 194px;
+	width: 186px;
+	background-position: 0 0;
+}
+
+.bloke2 a:hover{
+	display: block;
+	height: 198px;
+	background-position: 0 -190px;
+}
+
+
+.bloke3 a{
+	background: url(../img/bloques3.png);
+	display: block;
+	height: 194px;
+	width: 186px;
+	background-position: 0 0;
+}
+
+.bloke3 a:hover{
+	display: block;
+	height: 198px;
+	background-position: 0 -190px;
+}
+
+.bloke4 a{
+	background: url(../img/bloques4.png);
+	display: block;
+	height: 194px;
+	width: 186px;
+	background-position: 0 0;
+}
+
+.bloke4 a:hover{
+	display: block;
+	height: 198px;
+	background-position: 0 -190px;
+}
+
+.bloke5 a{
+	background: url(../img/bloques5.png) no-repeat;
+	display: block;
+	height: 194px;
+	width: 186px;
+	background-position: 0 0;
+}
+
+.bloke5 a:hover{
+	display: block;
+	height: 198px;
+	background-position: 0 -190px;
+}
+
+#boton {
+	width: 230px;
+	height: 40px;
+	padding: 133px 0 0 87px;
+}
+
+footer{
+	text-align: center;
+	padding: 5px 0;
+    clear: both;
+}
+
+/* Estilos de LA PAGINA DEL bloque uno*/
+ 
+
+
+
+#general{
+	background:url(../img/bg_contenido.jpg);
+	height:800px;
+}
+
+/* Estilos para el boton del "Temario"*/
+#menu{
+	width:140px;
+	padding: 8px;
+	font-size:13px;
+	text-align:center;
+	text-decoration: none;
+	color:#333;
+	border: 1px solid #0B3FA4;
+	margin: 1px 0 0 3px;;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+	cursor: pointer;
+
+}
+
+#menu:hover { /*color de fondo de los botones en los diferentes estados de los botones*/
+	background:#edc150;
+	color:#fff;
+}
+
+#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    margin-left: -217px;
+    list-style: none;
+    z-index:9999;
+	width: 217px;
+	height: 700px;
+	display: block;
+}
+
+/* DEGRADADO AMARILLA DE LA BARRA*/
+#cont_lista{
+background: #ebc153; /* Old browsers */
+background: -moz-linear-gradient(top,  #ebc153 0%, #d8b049 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebc153), color-stop(100%,#d8b049)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ebc153 0%,#d8b049 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ebc153 0%,#d8b049 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ebc153 0%,#d8b049 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ebc153 0%,#d8b049 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebc153', endColorstr='#d8b049',GradientType=0 ); /* IE6-9 */
+	width:186px;
+	margin:0 15px 0 15px;
+	height:664px;
+}
+
+
+
+ul.lista li{
+	list-style: none;
+	font-family:'Fabada-regular';
+	margin: 0px 0;
+	padding: 5px 2px 10px 5px;
+	
+}
+
+
+ul.lista li a:link, ul.lista li a:visited/*, ul.lista li a:active*/{
+	color:#FFF;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+
+ul.lista li a:hover/*, ul.lista li a:active */
+{
+	color:#fff;
+
+
+}
+
+/* accion de estar seleccionado mientras se encuentra en esa pagina*/	
+#nav li a.activa {
+	color:#0B3FA4;
+	}
+	
+#nav li a.ajuste {
+	font-size:13px;
+	}
+
+#nav li a.ajuste_2 {
+	font-size:11px;
+	}
+.info{
+	margin-left: 10px;
+	padding:10px 0 0 15px;
+	text-align: justify;
+
+	
+}
+
+/* meter el logotipo del bloque 1*/
+
+#logotipo{
+	width:217px;
+	height:299px;
+}
+
+#barra_sup{
+	background:url(../img/barra_superior.jpg) repeat-x;
+	height:42px;
+}
+
+#pie{
+	text-align:center;
+	color:#a19d84;
+	font-size:12px;
+	margin-top:5px;
+
+}
+/*Estilos de las paginas externas, hacer que se les quite el fondo*/
+
+.pagina{
+	background:none;
+}
+
+
+/* PARA LOS BOTONES DE LOS SUBTEMAS*/
+
+
+.botones li {
+	font-family:'Fabada-regular';
+	font-size: 14px;
+	font-weight: bold;
+	color:#333;
+    background-color: #EAEAEA;
+	margin: 1px;
+	padding: 15px;
+	text-align: center;
+	display: block;
+	border: 1px solid  #0b3fa4;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	width:300px;
+	
+}
+
+/* CENTRAR LOS SUBTEMAS*/
+
+
+#centrar_subtemas  {
+	width:325px;
+	margin:0 auto;
+	padding:30px 0 0 0;
+	text-align:center;
+
+}
+
+.botones li:hover  {
+	background:#EAC052;
+}
+.botones li:Hover {
+	background:#EAC052;
+}
+a.enlacesmenu{
+	font-family: 'Fabada-regular';
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+	text-align:left;
+	display: block;
+}
+a.enlacesmenu:hover{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+#titulo_contenidos{
+	background:url(../img/titulo_cont_apren.png) no-repeat;
+	height:142px;
+}
+#titulo_tema_1_b1{
+	background:url(../img/tit_tema_uno.png) no-repeat;
+	height:128px;
+}
+
+
+.titulo_bloque {
+	width:700px;
+	height:119px;
+	margin:0 auto;
+	text-align:left;
+	padding:0px 0 10px 0;
+
+}
+
+/*ESTILO DE LA TABLA DEL BLOQUE I APRENDIZAJES ESPERADOS*/
+#container_tabla_AEB1{
+	width:700px;
+	height:1578px;
+	border-bottom: solid 1px #F39800;
+	border-top: solid 1px #F39800;
+	border-left: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	margin:0 auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+
+#competencias_b1{
+	width:700px;
+	height:160px;
+	float:left;
+}
+nav li{
+	padding-left:60px;
+	list-style:none;
+	text-align:justify;
+}
+
+#titulos_tabla_AE{
+	width:349px;
+	height:30px;
+	background:#FBCC8C;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	font-weight:600;
+}
+#titulos_tabla_AE_sinfondo{
+	width:350px;
+	height:30px;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+	border-top: solid 1px #F39800;
+	background:#FEF8EF;
+	font-weight:600;
+}
+
+#aprendizajesC1{
+	width:331px;
+	height:400px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+}
+#aprendizajesC1_sinfondo{
+	width:332px;
+	height:400px;
+	float:left;
+	border-top: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+#aprendizajesC2{
+	width:331px;
+	height:185px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+
+}
+#aprendizajesC2_sinfondo{
+	width:332px;
+	height:185px;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	border-left: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+
+
+#aprendizajesC3{
+	width:331px;
+	height:255px;
+	background:#FEF0DD;
+	float:left;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	border-top: solid 1px #F39800;
+}
+#aprendizajesC3_sinfondo{
+	width:332px;
+	height:255px;
+	float:left;
+	border-left: solid 1px #F39800;
+	border-top: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+#aprendizajesC4{
+	width:331px;
+	height:293px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+}
+#aprendizajesC4_sinfondo{
+	width:332px;
+	height:293px;
+	float:left;
+	border-top: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+#pie_tabla{
+	width:700px;
+	height:auto;
+	float:left;
+	text-align:justify;
+	font-size:12px;
+}
+
+
+/*ESTILO DE LA TABLA DEL BLOQUE 2 APRENDIZAJES ESPERADOS*/
+#container_tabla_AEB2{
+	width:700px;
+	height:1198px;
+	border-bottom: solid 1px #F39800;
+	border-top: solid 1px #F39800;
+	border-left: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	margin:0 auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+
+#competencias_b2{
+	width:700px;
+	height:160px;
+	float:left;
+}
+nav li{
+	padding-left:60px;
+	list-style:none;
+	text-align:justify;
+}
+
+#titulos_tabla_AEB2{
+	width:349px;
+	height:30px;
+	background:#FBCC8C;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	font-weight:600;
+}
+#titulos_tabla_AE_sinfondoB2{
+	width:350px;
+	height:30px;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+	border-top: solid 1px #F39800;
+	background:#FEF8EF;
+	font-weight:600;
+}
+
+#aprendizajesC1B2{
+	width:331px;
+	height:215px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+}
+#aprendizajesC1_sinfondoB2{
+	width:332px;
+	height:215px;
+	float:left;
+	border-top: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+#aprendizajesC2B2{
+	width:331px;
+	height:240px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+
+}
+#aprendizajesC2_sinfondoB2{
+	width:332px;
+	height:240px;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	border-left: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+
+
+#aprendizajesC3B2{
+	width:331px;
+	height:220px;
+	background:#FEF0DD;
+	float:left;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+
+}
+#aprendizajesC3_sinfondoB2{
+	width:332px;
+	height:220px;
+	float:left;
+	border-left: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+#aprendizajesC4B2{
+	width:331px;
+	height:293px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+}
+#aprendizajesC4_sinfondoB2{
+	width:332px;
+	height:293px;
+	float:left;
+	border-top: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+
+/*ESTILO DE LA TABLA DEL BLOQUE 3 APRENDIZAJES ESPERADOS*/
+#container_tabla_AEB3{
+	width:700px;
+	height:1545px;
+	border-bottom: solid 1px #F39800;
+	border-top: solid 1px #F39800;
+	border-left: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	margin:0 auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+
+#competencias_b3{
+	width:700px;
+	height:160px;
+	float:left;
+}
+nav li{
+	padding-left:60px;
+	list-style:none;
+	text-align:justify;
+}
+
+#titulos_tabla_AEB3{
+	width:349px;
+	height:30px;
+	background:#FBCC8C;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	font-weight:600;
+}
+#titulos_tabla_AE_sinfondoB3{
+	width:350px;
+	height:30px;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+	border-top: solid 1px #F39800;
+	background:#FEF8EF;
+	font-weight:600;
+}
+
+#aprendizajesC1B3{
+	width:331px;
+	height:280px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+}
+#aprendizajesC1_sinfondoB3{
+	width:332px;
+	height:280px;
+	float:left;
+	border-top: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+#aprendizajesC2B3{
+	width:331px;
+	height:415px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+
+}
+#aprendizajesC2_sinfondoB3{
+	width:332px;
+	height:415px;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	border-left: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+
+
+#aprendizajesC3B3{
+	width:331px;
+	height:250px;
+	background:#FEF0DD;
+	float:left;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+
+}
+#aprendizajesC3_sinfondoB3{
+	width:332px;
+	height:250px;
+	float:left;
+	border-left: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+#aprendizajesC4B3{
+	width:331px;
+	height:370px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+}
+#aprendizajesC4_sinfondoB3{
+	width:332px;
+	height:370px;
+	float:left;
+	border-top: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+/*FIN BLOQUE 3*/
+
+
+/*ESTILO DE LA TABLA DEL BLOQUE 4 APRENDIZAJES ESPERADOS*/
+#container_tabla_AEB4{
+	width:700px;
+	height:1360px;
+	border-bottom: solid 1px #F39800;
+	border-top: solid 1px #F39800;
+	border-left: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	margin:0 auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+
+#competencias_b4{
+	width:700px;
+	height:160px;
+	float:left;
+}
+nav li{
+	padding-left:60px;
+	list-style:none;
+	text-align:justify;
+}
+
+#titulos_tabla_AEB4{
+	width:349px;
+	height:30px;
+	background:#FBCC8C;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	font-weight:600;
+}
+#titulos_tabla_AE_sinfondoB4{
+	width:350px;
+	height:30px;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+	border-top: solid 1px #F39800;
+	background:#FEF8EF;
+	font-weight:600;
+}
+
+#aprendizajesC1B4{
+	width:331px;
+	height:250px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+}
+#aprendizajesC1_sinfondoB4{
+	width:332px;
+	height:250px;
+	float:left;
+	border-top: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+#aprendizajesC2B4{
+	width:331px;
+	height:300px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+
+}
+#aprendizajesC2_sinfondoB4{
+	width:332px;
+	height:300px;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	border-left: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+
+
+#aprendizajesC3B4{
+	width:331px;
+	height:250px;
+	background:#FEF0DD;
+	float:left;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+
+}
+#aprendizajesC3_sinfondoB4{
+	width:332px;
+	height:250px;
+	float:left;
+	border-left: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+#aprendizajesC4B4{
+	width:331px;
+	height:330px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+}
+#aprendizajesC4_sinfondoB4{
+	width:332px;
+	height:330px;
+	float:left;
+	border-top: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+/*FIN BLOQUE 4*/
+
+/*ESTILO DE LA TABLA DEL BLOQUE 5 APRENDIZAJES ESPERADOS*/
+#container_tabla_AEB5{
+	width:700px;
+	height:1158px;
+	border-bottom: solid 1px #F39800;
+	border-top: solid 1px #F39800;
+	border-left: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	margin:0 auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+
+#competencias_b5{
+	width:700px;
+	height:160px;
+	float:left;
+}
+nav li{
+	padding-left:60px;
+	list-style:none;
+	text-align:justify;
+}
+
+#titulos_tabla_AEB5{
+	width:349px;
+	height:30px;
+	background:#FBCC8C;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	font-weight:600;
+}
+#titulos_tabla_AE_sinfondoB5{
+	width:350px;
+	height:30px;
+	float:left;
+	text-align:center;
+	padding-top:15px;
+	border-top: solid 1px #F39800;
+	background:#FEF8EF;
+	font-weight:600;
+}
+
+#aprendizajesC1B5{
+	width:331px;
+	height:330px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-right: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+}
+#aprendizajesC1_sinfondoB5{
+	width:332px;
+	height:330px;
+	float:left;
+	border-top: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+#aprendizajesC2B5{
+	width:331px;
+	height:610px;
+	background:#FEF0DD;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+
+}
+#aprendizajesC2_sinfondoB5{
+	width:332px;
+	height:610px;
+	float:left;
+	border-top: solid 1px #F39800;
+	border-bottom: solid 1px #F39800;
+	border-left: solid 1px #F39800;
+	text-align:justify;
+	padding-left:9px;
+	padding-top:5px;
+	padding-right:9px;
+	background:#FFF;
+}
+
+
+/*FIN BLOQUE 5*/
+
+
+/*ESTILOS DE LA PAGINA MOVIMIENTO UNIFORME*/
+
+
+
+#contenido_mov_uniforme{
+	height:700px;
+	overflow:auto;
+
+}
+
+.centrar_imgs{
+	text-align:center;
+
+}
+.titulos{
+	color:#376698;
+	font-size:18px;
+	font-weight:bolder;
+
+}
+.texto_plano{
+	color:#393939;
+	font-size:14px;
+	text-align:justify;
+
+}
+.sangria{
+	padding-left:15px;
+}
+.sangria_doble{
+	padding-left:30px;
+}
+.sangria_triple{
+	padding-left:50px;
+}
+.sangria_cuatruple{
+	padding-left:85px;
+}

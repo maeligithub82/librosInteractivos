@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>Temario Bloque 2</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, mimimun-scale=1.0, maximun-scale=1.0">
+        <link rel="stylesheet" href="css/style_ciencias.css" ype="text/css" charset="utf-8"/>
+        <script type="text/javascript" src="../../js/jquery-1.8.3.js"></script>
+    </head>
+    <body>
+    <div id="general">
+    
+        <div id="navigation">
+        <div id="logotipo"><img src="img/logo_ciencias.jpg" alt="" width="217" height="299" usemap="#Map" />
+            <map name="Map" id="Map">
+              <area shape="rect" coords="4,110,215,274" href="index_ciencias.html" alt="" />
+            </map>
+</div>
+            <div id="cont_lista">
+			<ul id="nav" class="lista">
+             <li ><a href="contenidos/bloque2/introduccion_bloque_2.html" target="cont_pages" class="activa" >Bloque 2</a> </li>
+            <li ><a href="contenidos/bloque2/importancia_nutricion.html" target="cont_pages" class="ajuste" >1.- Importancia de la nutricion para la salud</a> </li>
+            <li ><a href="contenidos/bloque2/biodiversi_res_evolucion.html" target="cont_pages"  class="ajuste">2.- Biodiversidad como resultado de la evolucion: relacion ambiente, cambio y adaptacion</a></li>
+  <li ><a href="contenidos/bloque2/interacciones_ciencia_tecnologia.html" target="cont_pages" class="ajuste" >3.- Interacciones entre la ciencia y la tecnologia en la satisfaccion de necesidades e intereses</a></li>
+
+            <li><img src="img/vineta.png" alt="" width="16" height="16" /> <a href="contenidos/bloque2/proyecto_bloque.html" target="cont_pages" class="ajuste" >Proyecto: Hacia la construcción de una ciudadanía responsable y participativa (opciones)*</a></li>
+   
+          </ul></div>
+      </div>
+		<div id="barra_sup">
+        <div id="menu">Temario Bloque 2</div></div>
+        
+        
+        <div class="info">
+          <br/><br/> 
+<iframe src="contenidos/bloque2/introduccion_bloque_2.html" name="cont_pages" id="cont_pages" width="100%" height="860px" scrolling="auto" style="border:0"></iframe>
+        </div>
+       
+    	<div id="pie"><!-- &copy; Todos los Derechos Reservados CODIOTECH --></p></div>
+        </div>
+         
+        <div >
+
+</div>
+
+
+        <script type="text/javascript">		
+			$(function(){
+			$(function () {
+				$("#nav a").click(function() {
+				$("#nav a").removeClass("activa");		
+				$(this).addClass("activa");
+				$('#navigation').hide();	
+				$('#navigation').stop().animate({'marginLeft':'-217px'},200);
+				$('.info').stop().animate({'marginLeft':'5px'},200);
+				$('#menu').stop().animate({'marginLeft':'15px'},200);
+				})
+			});
+			
+		$('#navigation').hide();
+		$('#menu').click(function(){
+			if($('#navigation').is(":hidden")){
+				$('#navigation').show();
+				$('#navigation').stop().animate({'marginLeft':'0px'},200);
+				$('.info').stop().animate({'marginLeft':'225px'},200);
+				$('#menu').stop().animate({'marginLeft':'225px'},200);
+			}else{
+				$('#navigation').hide();	
+				$('#navigation').stop().animate({'marginLeft':'-217px'},200);
+				$('.info').stop().animate({'marginLeft':'5px'},200);
+				$('#menu').stop().animate({'marginLeft':'15px'},200);
+				return true;
+			}
+			});
+		});
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+/* Content Flip Style */
+body{
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	background:url(../../../img/bg_contenido.png);
+	}
+#container {
+	width:902px;
+	height:608px;
+	background:;
+	margin: 57px auto  0 auto;
+	background:url(../images/img_quijote.jpg);
+}
+
+#home {
+	width:56px;
+	height:55px;
+	padding-left:820px;
+	padding-top:15px;
+}

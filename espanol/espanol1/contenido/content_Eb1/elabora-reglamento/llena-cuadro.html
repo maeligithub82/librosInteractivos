@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Llena el cuadro</title> 
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+        <link rel="stylesheet" type="text/css" href="css/apprise.min.css" />
+        <link href="../../../../../css/tipografia.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="container">
+			<div class="main">
+				<form class="form-2" id="f2">
+                	<div class="encabezado" > 
+                    	<h1><span class="uno">Regla </span> o <span class="dos">norma</span></h1>
+						<label>Tira la basura en los botes destinados para ello.</label>
+                        <label>Tirar la basura en los botes destinados para ello.</label>
+                        <label>Respeta las opiniones de los demás aunque no estés de acuerdo</label>
+                        <label>Respetar las opiniones de los demás aunque no estés de acuerdo</label>
+                    </div>
+                  <div class="encabezado" > 
+                    	<h1><span class="uno">¿Orden </span> o <span class="dos">sugerencia?</span></h1>
+                        <div id="b"></div>
+                        <input type="text" maxlength="5" name="r1" id="r1" required />
+                        <div id="b1"></div>
+                        <input type="text" maxlength="10" name="r2" id="r2" />
+                        <div id="b2"></div>
+                      	<input type="text" maxlength="5" name="r3" id="r3" /><br />
+                        <div id="b3"></div>
+                        <input type="text" maxlength="10" name="r4" id="r4" />
+                    	
+                    </div>
+                    <div class="encabezado"> 
+                    	<h1><span class="uno">¿imperativo </span> o <span class="dos">infinitivo?</span></h1>
+                        <div id="b4"></div>
+                    	<input type="text" maxlength="10" name="r5" id="r5">
+                        <div id="b5"></div>
+                        <input type="text" maxlength="10" name="r6" id="r6">
+                        <div id="b6"></div>
+                        <input type="text" maxlength="10" name="r7" id="r7"><br />
+                        <div id="b7"></div>
+                        <input type="text" maxlength="10" name="r8" id="r8">
+                    </div>
+				</form>
+                <div id="consultar">Consultar</div>
+                <div id="next"><a href="opciones.html" target="_self"><img src="img/arrow-right.png" width="87" height="87"></a></div>
+                <div id="robot">
+                	<div><img  height="257" width="194"  src="img/robot.png"></div>
+        			<div id="boca"><img  height="18" width="42"  src="img/boca_rb.png"></div>
+    			</div>
+                <div id="coment-1">
+                	<div><img  height="250" width="250"  src="img/coment.png"></div>
+        			<div id="texto"><span>Llena el siguiente cuadro</span></div>
+    			</div>
+                
+			</div>   
+        </div>
+		<script type="text/javascript" src="js/llenar.js"></script>
+        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/apprise-1.5.min.js"></script>
+    </body>
+</html>
